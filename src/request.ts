@@ -17,7 +17,7 @@ export default class Request {
     constructor (username: string, password: string, apiUrl: string) {
         this.headers = {
             username: username,
-            password: password,
+            password: password
         };
         this.apiUrl = apiUrl;
         this.http = got.extend({
